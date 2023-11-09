@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.StringTokenizer;
 
 //O(Nlog(N))
-public class Base {
+public class WhatBase {
 	public static void main(String[] args) throws IOException {
 		BufferedReader r = new BufferedReader(new FileReader("whatbase.in"));
 		PrintWriter pw = new PrintWriter("whatbase.out");
