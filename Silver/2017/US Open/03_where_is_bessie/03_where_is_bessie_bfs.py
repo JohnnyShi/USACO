@@ -35,8 +35,6 @@ def bfs(row, col, visited, color):
                 q.append((new_row, new_col))
 
 
-
-
 def count_regions(start_row, start_col, end_row, end_col, color):
     visited = []
     for i in range(N):
@@ -64,10 +62,6 @@ def is_pcl(start_row, start_col, end_row, end_col):
 
 def is_inside(source_start, source_end, target_start, target_end):
     return source_start[0] >= target_start[0] and source_start[1] >= target_start[1] and source_end[0] <= target_end[0] and source_end[1] <= target_end[1]
-
-
-# def search(start_min_row, start_max_row, start_min_col, start_max_col, end_min_row, end_max_row, end_min_col, end_max_col):
-
 
 
 pcl_candidates = []
