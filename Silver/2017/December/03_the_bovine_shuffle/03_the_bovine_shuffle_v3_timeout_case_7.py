@@ -42,7 +42,6 @@ def find_cycle(start):
             return length - distance[cur]
         distance[cur] = length
         length += 1
-        # if shuffles[cur] not in distance:
         q.append(shuffles[cur])
     mark(start, cur)
     return 0
